@@ -6,7 +6,7 @@ function Contact() {
       <div style={styles.overlay}></div> {/* Overlay for better text visibility */}
       <div style={styles.content}>
         <img 
-          src='https://m.media-amazon.com/images/I/71eF0s6Zx5L.jpg' 
+          src='https://thumbs.dreamstime.com/b/cute-cartoon-anime-wallpaper-anime-boy-aesthetic-image-wallpaper-342273603.jpg' 
           alt='Contact' 
           style={styles.image}
         />
@@ -53,7 +53,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundImage: 'url(https://s.cafebazaar.ir/images/icons/com.anime.wallpaperhd-5cde4f36-e7c3-48e3-b6dc-7744308a31ea_512x512.png?x-img=v1/resize,h_256,w_256,lossless_false/optimize)',
+    backgroundImage: 'url(https://thumbs.dreamstime.com/b/cute-cartoon-anime-wallpaper-anime-boy-aesthetic-image-wallpaper-342273603.jpg)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -73,15 +73,15 @@ const styles = {
     marginTop:'2rem',
     position: 'relative',
     maxWidth: '500px',
-    width: '100%',
-    hight:'300px',
+    width: '90%',
+    hight:'200px',
     padding: '20px',
     textAlign: 'center',
-    backgroundColor: 'rgba(255, 255, 255, 0.5)', // Set semi-transparent white background
+    backgroundColor: 'rgba(255, 255, 255, 0.5)', 
     borderRadius: '8px',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
     zIndex: 2,
-    backdropFilter: 'blur(10px)', // Adds a blur effect for a more stylish look
+    backdropFilter: 'blur(10px)', 
     marginBottom:'2rem'
   },
   image: {
@@ -123,8 +123,8 @@ const styles = {
     fontSize: '16px',
     borderRadius: '5px',
     border: 'none',
-    backgroundColor: 'rgb(11, 212, 247)',
-    color: 'black',
+    backgroundColor: 'black',
+    color: 'rgb(11, 212, 247)',
     cursor: 'pointer',
     transition: 'background-color 0.3s',
   },

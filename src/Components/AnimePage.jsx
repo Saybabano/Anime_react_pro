@@ -6,57 +6,57 @@ function AnimePage() {
     const products=[
         {
             id:1,
-            name:'Have Mercy, Your Ladyship!',
-            price:'1200 Rs',
+            name:'Have Mercy, Ladyship!',
+            price:'500 Rs',
             description:'Author Name: hotread',
             imge:'https://cn-e-pic-tencent.mangatoon.mobi/cartoon-posters/1035988a48e.webp-posterend1000',
         },
         {
             id:1,
-            name:'The Supreme Sword Intention',
-            price:'1200 Rs',
+            name:'The Supreme Sword',
+            price:'800 Rs',
             description:'Author Name: Xiaomingtaiji',
             imge:'https://cn-e-pic-tencent.mangatoon.mobi/cartoon-posters/2362835d727.webp-posterend1000',
         },
         {
             id:1,
             name:'Devouring The Seas',
-            price:'1200 Rs',
+            price:'300 Rs',
             description:'Author Name: Kuaikan Comics',
             imge:'https://cn-e-pic-tencent.mangatoon.mobi/cartoon-posters/16322079afc.webp-posterend1000',
         },
         {
             id:1,
             name:'WHO CARES',
-            price:'1200 Rs',
+            price:'600 Rs',
             description:'Author Name: Kuaikan Comics',
             imge:'https://cn-e-pic-tencent.mangatoon.mobi/cartoon-posters/3446102f117.webp-posterend1000',
         },
         {
             id:1,
             name:'Trapped with the CEO',
-            price:'1200 Rs',
+            price:'100 Rs',
             description:'Author Name: CHANGDU',
             imge:'https://cn-e-pic-tencent.mangatoon.mobi/cartoon-posters/139346a55a.webp-posterend1000',
         },
         {
             id:1,
             name:'Transient Tea',
-            price:'1200 Rs',
+            price:'900 Rs',
             description:'Author Name: ManYu',
             imge:'https://cn-e-pic-tencent.mangatoon.mobi/cartoon-posters/1978ef17.webp-posterend1000',
         },
         {
             id:1,
             name:'2D Lover',
-            price:'1200 Rs',
+            price:'700 Rs',
             description:'Author Name: iQiyi Comics',
             imge:'https://cn-e-pic-tencent.mangatoon.mobi/cartoon-posters/39216801f4a.webp',
         },
         {
             id:1,
             name:'Only Love',
-            price:'1200 Rs',
+            price:'1300 Rs',
             description:'Author Name: Kuaikan Comics',
             imge:'https://cn-e-pic-tencent.mangatoon.mobi/cartoon-posters/37279597b3e.webp-posterup4',
         },
@@ -70,7 +70,7 @@ function AnimePage() {
         {
             id:1,
             name:'School Hunk Is A Girl',
-            price:'1200 Rs',
+            price:'1100 Rs',
             description:'Author Name: CHINA LITERATURE',
             imge:'https://cn-e-pic-tencent.mangatoon.mobi/cartoon-posters/14779932c0c.webp-posterup4',
         },
@@ -80,15 +80,15 @@ function AnimePage() {
     <>
         <Slider/>
         <Card/>
-        <h1 style={{textAlign:'center',marginTop:'25px'}}>Weekly Novel</h1>
+        <h2 style={{textAlign:'center',marginTop:'25px'}}>𝓦𝓮𝓮𝓴𝓵𝔂 𝓝𝓸𝓿𝓮𝓵</h2>
         <div style={{display:'flex',flexWrap:'wrap',gap:'20px',marginLeft:'2rem',marginTop:'2rem',marginBottom:'2rem'}}>
             {products.map((product)=>(
                 <div 
                     key={products.id}
                     style={{
-                        border:'1px solid  rgb(11, 212, 247)',
                         padding:'16px',
                         width:'220px',
+                        borderRadius:'5px',
                         height:'300px',
                         textAlign:'center',
                         boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
